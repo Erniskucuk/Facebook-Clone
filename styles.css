@@ -74,6 +74,7 @@ body {
     height: 35px;
     background-color: lightgrey;
     border-radius: 50%;
+    margin-right: 5px;
 
 }
 
@@ -113,10 +114,7 @@ body {
     transform: scaleX(1);
     transform-origin: bottom left;
 }
-.nav2 .home-icon a{
-   
-  
-}
+
 
 
 
@@ -171,6 +169,7 @@ body {
     border: 1px solid #535455;
     --webkit-border: 1px solid #535455;
     -moz-border: 1px solid #535455;
+    margin-right: 2%;
 }
 
 .header input {
@@ -191,7 +190,7 @@ body {
 
 .header .material-icons {
     color: green;
-    margin-right: 10px;
+    margin-right: 2%;
 }
 
 .header-icon {
@@ -228,12 +227,7 @@ body {
     background-color: #CCCCCC;
     cursor: pointer;
 }
-.header-icon button:after{
-  
-}
-.header-icon button:hover:after{
-   
-}
+
 
 #video {
     margin-right: 5px;
@@ -264,9 +258,9 @@ hr {
     display: flex;
     padding: 10px 10px;
     justify-content: space-around;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-    --webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-    --moz-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.2);
+    --webkit-box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.2);
+    --moz-box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.2);
     margin-bottom: 2px;
 }
 
