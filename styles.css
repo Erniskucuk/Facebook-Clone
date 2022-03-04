@@ -17,7 +17,7 @@
 }
 
 body {
-    width: 100%;
+    min-width: 100%;
     height: 100%;
     overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
@@ -54,6 +54,7 @@ body {
     position: relative;
    
 }
+
 .nav12 .searchR{
     width: 35px;
     height: 35px;
@@ -61,11 +62,8 @@ body {
     border-radius: 50%;
     margin-right: 10px;
     
-  
-  
-    
-   
 }
+
  .search-icon img{
    margin:7px;
 
@@ -78,16 +76,10 @@ body {
     border-radius: 50%;
 
 }
+
 .chat-icon img{
     margin:7px;
 }
-
-
-
-
-
-
-
 
 
 .nav2 {
@@ -116,15 +108,7 @@ body {
 .nav2 .home-icon{
     color: blue;
 }
- /* .home-icon img::after{
-    content: "";
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 3px;
-    background: red;
-
-} */
+ 
 .header{
     display: flex;
     max-width: 100%;
@@ -137,20 +121,21 @@ body {
    
 }
 .header .logo-pic img{
-    margin-left: 10px;
+    
     border-radius: 50%;
     border: 1px solid #535455;
     --webkit-border: 1px solid #535455;
     -moz-border: 1px solid #535455;
 }
 .header input{
- 
+    margin-left: 10px;
+    margin-right: 10px;
     min-height: 50%;
     padding: 20px 40px;
     overflow: hidden;
     border-radius: 70em;
-   font-size: 14px;
-   border: 1px solid #ccd0d5;
+    font-size: 14px;
+    border: 1px solid #ccd0d5;
    --webkit-border: 1px solid #ccd0d5;
    -moz-border: 1px solid #ccd0d5;
   
@@ -161,7 +146,7 @@ body {
 }
 .header-icon{
     display: flex;
-    max-width: 98%;
+    max-width: 100%;
     overflow: hidden;
     align-items: center;
     justify-content: space-between;
@@ -207,7 +192,7 @@ body {
 
 
 hr{
-    width: 98%;
+    width: 100%;
     min-height: 10px;
     background-color: #c7c5c5;
     overflow: hidden;
@@ -221,12 +206,14 @@ hr{
 }
 .header-text a{
     text-decoration: none;
+    color: grey;
 }
 .header-text a:hover{
     color: #0C7EF6;
+    cursor: pointer;
 }
 .hr-line hr{
-    width: 98%;
+    width: 100%;
     min-height: 5px;
     background-color: #c7c5c5;
     overflow: hidden;
@@ -460,7 +447,7 @@ background-size: cover;
   .footer{
       display: flex;
       flex-direction: column;
-      width: 100%;
+     
       background-color: #3e7fff;
       color: black;
       display: flex;
@@ -468,6 +455,7 @@ background-size: cover;
       line-height: 1.3;
       padding: 20px;
       margin-bottom: 30px;
+      overflow: hidden;
   }
   .footer a{
       text-decoration: none;
