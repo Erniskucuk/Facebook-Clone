@@ -50,7 +50,7 @@ body {
 
 .nav12 {
     display: flex;
-    margin-right: 10px;
+    margin-right: 17px;
     position: relative;
 
 }
@@ -123,14 +123,14 @@ body {
 
 .nav2 .home-icon .material-icons  {
     color: #0C7EF6;
-    width: 50px;
+    width: 40px;
 
   
     
 }
 
 .nav2 .active {
-    width: 50px;
+    width: 40px;
     padding-left: 20px;
     
 }
